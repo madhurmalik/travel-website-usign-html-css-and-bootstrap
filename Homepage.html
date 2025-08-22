@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css\bootstrap.min.css" rel="stylesheet">
+    <script src="js\bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c729db828.js" crossorigin="anonymous"></script>
+    <title>WanderWell</title>
+</head>
+
+<body>
+    <div class="navbar-container">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <h2 class="brand-lg">
+                    Wander
+                    <span>Well.</span>
+                </h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title brand-lg" id="offcanvasNavbarLabel">Wander
+                            <span>Well.</span>
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Homepage.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Destination">Destination</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Packages">Packages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Gallery">Gallery</a>
+                            </li>
+                            <li class="nav-dropdown dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item" href="FAQ.html">FAQs</a></li>
+                                    <li><a class="dropdown-item" href="About Us.html">About Us</a></li>
+
+                                    <li><a class="dropdown-item" href="Contact Us.html">Contact Us</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Navigation Bar Completed-->
+
+
+    <div class="home-section">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="home-content img-1">
+                        <div class="content-home">
+                            <h3 class="heading-sm-carousel">Turning Travel Dreams</h3>
+                            <h2 class="heading-lg-carousel">into Reality</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="home-content img-2">
+                        <div class="content-home">
+                            <h3 class="heading-sm-carousel">Want To Travel</h3>
+                            <h2 class="heading-lg-carousel">Dubai</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="home-content img-3">
+                        <div class="content-home">
+                            <h3 class="heading-sm-carousel">Want To Travel</h3>
+                            <h2 class="heading-lg-carousel">Singapore</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="home-content img-4">
+                        <div class="content-home">
+                            <h3 class="heading-sm-carousel">Want To Travel</h3>
+                            <h2 class="heading-lg-carousel">Paris</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="home-content img-5">
+                        <div class="content-home">
+                            <h3 class="heading-sm-carousel">Want To Travel</h3>
+                            <h2 class="heading-lg-carousel">Srilanka</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="home-content img-6">
+                        <div class="content-home">
+                            <h3 class="heading-sm-carousel">Want To Travel</h3>
+                            <h2 class="heading-lg-carousel">Andaman</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span><i class="fa-solid icon-scroll fa-angles-left"></i></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span><span><i class="fa-solid icon-scroll fa-angles-right"></i></span></span>
+            </button>
+        </div>
+    </div>
+
+    <!--Carousel Completed-->
+
+    <div class="formbar-container">
+        <div class="row">
+            <div class="col-md-3">
+                <select name="Destination" class="select-form" id="">
+                    <option value="Destination-0">Destination</option>
+                    <option value="Destination-1">Dubai</option>
+                    <option value="Destination-2">Paris</option>
+                    <option value="Destination-3">Srilanka</option>
+                    <option value="Destination-4">Andaman</option>
+                    <option value="Destination-5">Singapore</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select name="Duration" class="select-form" id="">
+                    <option value="Duration-0">Duration</option>
+                    <option value="Duration-1">3 Days</option>
+                    <option value="Duration-2">5 Days</option>
+                    <option value="Duration-3">7 Days</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select name="Budget" class="select-form" id="">
+                    <option value="Budget-0">Budget</option>
+                    <option value="Budget-1">3,00,000</option>
+                    <option value="Budget-2">5,00,000</option>
+                    <option value="Budget-3">7,00,000</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <button class="search-button" type="submit">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Select Bar Completed-->
+    <section id="Services" class="id-section">
+        <div class="services-heading">
+            <h2 class="heading-lg">Services</h2>
+            <h4 class="heading-sm">Tour & Travel Services</h4>
+        </div>
+
+        <div class="services-container">
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Services/hotel.png" alt="">
+                    <div class="card-content">
+                        <h3>Accommodation Booking</h3>
+                        <p>Offer a wide selection of hotels, resorts, hostels, vacation rentals, and other types of
+                            accommodation, with detailed information, images, reviews, and amenities listed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Services/plane.png" alt="">
+                    <div class="card-content">
+                        <h3>Transportation Services</h3>
+                        <p>Enable users to book rental cars, airport transfers, cabs, buses, and potentially other
+                            transportation methods like trains or cruises.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Services/packages.png" alt="">
+                    <div class="card-content">
+                        <h3>Tour Packages</h3>
+                        <p>Provide a variety of pre-designed or customizable tour packages catering to different
+                            interests (adventure, pilgrimage, cultural, etc.) and budgets, with detailed itineraries,
+                            inclusions, and exclusions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Services/insureance.png" alt="">
+                    <div class="card-content">
+                        <h3>Travel Insurance</h3>
+                        <p>Provide options for purchasing travel insurance to cover unexpected events like medical
+                            emergencies, trip cancellations, or lost baggage.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Services/compass.png" alt="">
+                    <div class="card-content">
+                        <h3>Travel Guide</h3>
+                        <p>Offer a wide range of local activities, sightseeing tours, experiences, and attractions at
+                            various destinations, allowing users to browse and book them directly.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Services/location.png" alt="">
+                    <div class="card-content">
+                        <h3>Destination</h3>
+                        <p>Provide comprehensive destination guides, including information on local attractions,
+                            cultural tips, weather forecasts, and recommended itineraries.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Service Section Completed-->
+
+    <section id="Destination" class="id-section">
+
+        <div class="destination-heading">
+            <h2 class="destination-lg">Destination</h2>
+            <h4 class="destination-sm">Tour & Travel Destinations</h4>
+        </div>
+
+        <div class="destination-container">
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Destination & Packages/Dubai.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Dubai, UAE</h3>
+                        <p>Experience modern architectural wonders like Burj Khalifa alongside thrilling desert safaris,
+                            luxurious shopping, vibrant beaches, and diverse cuisine.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Destination & Packages/Paris.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Paris, France</h3>
+                        <p> Immerse yourself in Parisian charm with iconic landmarks like the Eiffel Tower and Louvre
+                            Museum, romantic cruises on the Seine, charming neighborhoods like Montmartre, and a rich
+                            history begging to be explored.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Destination & Packages/Singapore.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Singapore</h3>
+                        <p> A harmonious blend of modernity and lush greenery, Singapore offers iconic landmarks like
+                            Gardens by the Bay, a vibrant culinary scene, diverse cultural enclaves, and thrilling theme
+                            parks.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Destination & Packages/Srilanka.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Sri Lanka</h3>
+                        <p>Uncover ancient ruins, traverse breathtaking tea plantations, relax on golden beaches, and
+                            experience vibrant wildlife.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Destination & Packages/Andaman & Nicobar Islands.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Andaman & Nicobar Islands, India</h3>
+                        <p>Discover pristine beaches, captivating coral reefs perfect for diving and snorkeling, rich
+                            biodiversity, historical sites like Cellular Jail, and opportunities for exhilarating water
+                            sports.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Destination & Packages/Leh Ladakh.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Leh, Ladakh</h3>
+                        <p>Nestled high in the Indian Himalayas, Leh offers a unique blend of stunning landscapes,
+                            ancient monasteries, and Buddhist culture. Enjoy exhilarating bike trips, serene views of
+                            Stok Kangri, and a taste of local life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Destination Section Completed-->
+
+    <section id="Packages" class="id-section">
+        <div class="package-heading">
+            <h2 class="package-lg">Package</h2>
+            <h4 class="package-sm">Tour & Travel Packages</h4>
+        </div>
+
+        <div class="package-container">
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Destination & Packages/Dubai.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Dubai, UAE</h3>
+                        <p>Luxury redefined: Skyscrapers, desert adventures, and endless entertainment.</p>
+                        <p><img src="Images/Destination & Packages/Icons/duration.png" alt=""> 6 Days/5 Nights</p>
+                        <p><img src="Images/Destination & Packages/Icons/people.png" alt=""> 2</p>
+                        <hr>
+                        <h4 class="package-price">₹1,10,000 - ₹1,80,000</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Destination & Packages/Paris.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Paris, France</h3>
+                        <p>City of love: Iconic landmarks, romantic charm, and timeless elegance.</p>
+                        <p><img src="Images/Destination & Packages/Icons/duration.png" alt=""> 7 Days/6 Nights</p>
+                        <p><img src="Images/Destination & Packages/Icons/people.png" alt=""> 2</p>
+                        <hr>
+                        <h4 class="package-price">₹2,50,000 - ₹3,50,000+</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Destination & Packages/Singapore.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Singapore</h3>
+                        <p>Garden city: Futuristic marvels, cultural experiences, and culinary delights.</p>
+                        <p><img src="Images/Destination & Packages/Icons/duration.png" alt=""> 5 Days/4 Nights</p>
+                        <p><img src="Images/Destination & Packages/Icons/people.png" alt=""> 2</p>
+                        <hr>
+                        <h4 class="package-price">₹1,20,000 - ₹2,00,000</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Destination & Packages/Srilanka.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Sri Lanka</h3>
+                        <p>Emerald Isle: Ancient wonders, lush landscapes, and golden beaches.</p>
+                        <p><img src="Images/Destination & Packages/Icons/duration.png" alt=""> 6 Days/5 Nights</p>
+                        <p><img src="Images/Destination & Packages/Icons/people.png" alt=""> 2</p>
+                        <hr>
+                        <h4 class="package-price">₹1,00,000 - ₹1,80,000</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Destination & Packages/Andaman & Nicobar Islands.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Andaman & Nicobar Islands</h3>
+                        <p>Island paradise: Pristine beaches, emerald waters, and vibrant marine life.</p>
+                        <p><img src="Images/Destination & Packages/Icons/duration.png" alt=""> 5 Days/4 Nights</p>
+                        <p><img src="Images/Destination & Packages/Icons/people.png" alt=""> 2</p>
+                        <hr>
+                        <h4 class="package-price">₹80,000 - ₹1,50,000</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Destination & Packages/Leh Ladakh.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Leh, Ladakh</h3>
+                        <p>Conquer the Himalayas: Land of rugged beauty and ancient spirituality.</p>
+                        <br>
+                        <p><img src="Images/Destination & Packages/Icons/duration.png" alt=""> 6 Days/5 Nights</p>
+                        <p><img src="Images/Destination & Packages/Icons/people.png" alt=""> 2</p>
+                        <hr>
+                        <h4 class="package-price">₹60,000 - ₹90,000</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Package Container Completed-->
+
+    <section id="Gallery" class="id-section">
+        <div class="gallery-heading">
+            <h2 class="gallery-lg">Gallery</h2>
+            <h4 class="gallery-sm">Tour & Travel Gallery</h4>
+        </div>
+
+        <div class="gallery-container">
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Dubai/Burj Khalifa.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Burj Khalifa, Dubai</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Dubai/Burj Al Arab.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Burj Al Araba, Dubai</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Dubai/Palm Jumeirah.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Palm Jumeirah, Dubai</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Dubai/Dubai Miracle Garden.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Miracle Garden, Dubai</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Paris/Eiffel Tower.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Eiffel Tower, Paris</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Paris/Palace of Versailles.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Palace of Versailles,
+                            Paris</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Paris/River Seine Cruise.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Seine River, Paris</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Paris/Louvre Museum.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Louvre Museum, Paris</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Andaman & Nicobar Island/Cellular Jail, Port Blair.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Cellular Jail, Andaman &
+                            Nicobar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Andaman & Nicobar Island/Ross Island.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Ross Island, Andaman &
+                            Nicobar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Andaman & Nicobar Island/Samudrika Marine Museum.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Samudrika Museum, Andaman
+                            & Nicobar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Andaman & Nicobar Island/Radhanagar Beach, Havelock Island.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Radhanagar Beach, Andaman
+                            & Nicobar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Singapore/ArtScience Museum.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> ArtScience Museum,
+                            Singapore</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Singapore/Singapore Botanic Gardens.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Botanic Garden, Singapore
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Singapore/Marina Bay Sands.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Marine Bay Sands,
+                            Singapore</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Singapore/Little India.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Little India, Singapore
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Leh Ladakh/Confluence of Indus and Zanskar Rivers Sangam.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Sangam, Leh Ladakh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Leh Ladakh/gurudwara pathar sahib.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Gurdaware Pathar Sahib,
+                            Leh Ladakh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Leh Ladakh/shanti stupa.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Shanti Stupa, Leh Ladakh
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Leh Ladakh/Thiksey Monastery.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Thiksey Monastery, Leh
+                            Ladakh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Sri Lanka/Ella & Nine Arch Bridge.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Ella & Nine Arch Bridge,
+                            Sri Lanka</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Sri Lanka/Sigiriya Rock Fortress.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Sigiriya Rock Fortress,
+                            Sri Lanka</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Sri Lanka/Dambulla Cave Temple.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Dambulla Cave Temple, Sri
+                            Lanka</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Images/Gallery/Sri Lanka/Galle Fort.jpg" alt="">
+                    <div class="card-content">
+                        <p><img src="Images/Destination & Packages/Icons/location.png" alt=""> Galle Fort, Sri Lanka</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Gallery Section Completed-->
+
+    <section>
+        <div class="fotter-container">
+            <div class="fotter-card-container">
+                <div class="fotter-card">
+                    <div class="fotter-card-content">
+                        <h2>Wander
+                            <span>Well.</span>
+                        </h2>
+                        <p>Discover incredible destinations. Craft your perfect journey.
+                            WanderWell: Your ultimate travel companion. Explore, plan, experience unforgettable
+                            adventures.</p>
+                        <br>
+                        <h2>Follow Us</h2>
+                        <img src="Images/Social Media Icons/facebook.png" alt=""><img
+                             src="Images/Social Media Icons/instagram.png" alt=""><img
+                            src="Images/Social Media Icons/whatsapp.png" alt=""><img
+                            src="Images/Social Media Icons/linkedin.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="fotter-card-container">
+                <div class="fotter-card">
+                    <div class="fotter-card-content">
+                        <h2>Pages</h2>
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Destination">Destination</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Packages">Packages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Gallery">Gallery</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="FAQ.html">FAQs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="About Us.html">About Us</a></li>
+
+                            <li class="nav-item"><a class="nav-link" href="Contact Us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="fotter-card-container">
+                <div class="fotter-card">
+                    <div class="fotter-card-content"> 
+                        <h2>Contact Us
+                        </h2>
+                        <br>
+                        <p><i class="fa-solid fa-phone"></i>+91 1234567890</p>
+                        <br>
+                        <p><i class="fa-solid fa-envelope"></i>wanderwell@gmail.com</p>
+                        <br>
+                        <p><i class="fa-solid fa-location-dot"></i>Delhi, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
