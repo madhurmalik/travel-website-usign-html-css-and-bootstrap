@@ -715,7 +715,7 @@ body{
 @media only screen and (max-width: 442px){
     .contact-us{
     margin-top: 180px;
-    height: 175%;
+    height: 190%;
     width: 100%;
     max-width: 100%;
     background-image: url('Images/Contact Us/mobilebackground.jpg');
@@ -740,7 +740,7 @@ body{
 }
 
 .contact-section{
-    height: 200vh;
+    height: 220vh;
     width: 100%;
 }
 
@@ -901,3 +901,4 @@ body{
     text-transform: capitalize;
 
 }
+
